@@ -4,7 +4,3 @@ export PATH=/Users/y/Documents/android-sdk-mac_86/platform-tools:/opt/local/bin:
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export CLICOLOR=1
-
-alias ll='ls -l'
-alias la='ls -a'
-alias s=screen

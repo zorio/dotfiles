@@ -14,5 +14,4 @@ altscreen on
 defwrap on
 bind s #reset s key
 shelltitle "$ |bash"
-#PS1='\033k\033\\[\u@\h \W]\$ '
 

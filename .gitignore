@@ -12,5 +12,5 @@
 .netrc
 .serverauth.8674
 .sh_history
-.vim/
 .viminfo
+.vim/bundle/*

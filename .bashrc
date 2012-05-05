@@ -7,3 +7,7 @@ function share_history {
 PROMPT_COMMAND='share_history'
 shopt -u histappend
 export HISTSIZE=9999
+
+alias ll='ls -l'
+alias la='ls -a'
+alias s=screen
