@@ -1,0 +1,16 @@
+[a-z0-9A-Z]*
+.CFUserTextEncoding
+.DS_Store
+.KeyHoleTV
+.Xauthority
+.appcfg_cookies
+.appcfg_nag
+.bash_history
+.gdb_history
+.irb_history
+.lesshst
+.netrc
+.serverauth.8674
+.sh_history
+.vim/
+.viminfo
