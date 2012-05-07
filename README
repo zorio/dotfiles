@@ -1,0 +1,6 @@
+Add public key to github web page
+git clone git@github.com:zorio/dotfiles.git
+cd ~/dotfiles
+git submodule update --init .vim/vundle
+vi then :BundleInstall
+ln to any files you want to sync in home directory.
