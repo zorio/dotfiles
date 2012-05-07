@@ -14,12 +14,16 @@ Bundle 'unite.vim'
 " Completion
 Bundle 'Shougo/neocomplcache'
 Bundle 'matchit.zip'
-"Bundle 'Pydiction'
+Bundle 'Pydiction'
 
 " Syntax
 Bundle 'JavaScript-syntax'
-Bundle 'yuroyoro/vim-python'
+Bundle 'zorio/vim-python'
 Bundle 'scrooloose/syntastic'
+
+" Color
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tomasr/molokai'
 
 source ~/.vimrc.unite
 source ~/.vimrc.neocomplcache
@@ -33,6 +37,7 @@ nnoremap <silent> <F6> :NERDTreeToggle<CR>
 nnoremap <silent> gg g<C-]>
 let g:NERDTreeIgnore = ['\~$', '\.pyc$']
 let mapleader = ","
+syntax enable
 set cursorline
 set expandtab
 set foldlevel=1
@@ -47,7 +52,9 @@ set shortmess=atI
 set softtabstop=2
 set tabstop=2
 set title
-syntax on
+set background=dark
+colorscheme solarized
+"colorscheme molokai
 highlight Cursor ctermfg=White ctermbg=Blue
 " buffer switching/management, might as well use those keys for something useful
 map <Right> :bnext<CR>
