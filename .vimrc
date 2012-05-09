@@ -14,7 +14,7 @@ Bundle 'unite.vim'
 " Completion
 Bundle 'Shougo/neocomplcache'
 Bundle 'matchit.zip'
-Bundle 'Pydiction'
+Bundle 'zorio/Pydiction'
 
 " Syntax
 Bundle 'JavaScript-syntax'
