@@ -19,7 +19,7 @@ Bundle 'zorio/Pydiction'
 " Syntax
 Bundle 'JavaScript-syntax'
 Bundle 'zorio/vim-python'
-Bundle 'scrooloose/syntastic'
+" Bundle 'scrooloose/syntastic'
 
 " Color
 Bundle 'altercation/vim-colors-solarized'
@@ -62,3 +62,5 @@ imap <Right> <ESC>:bnext<CR>
 map <Left> :bprev<CR>
 imap <Left> <ESC>:bprev<CR>
 
+" Load env specific code
+source ~/.vimrc.local

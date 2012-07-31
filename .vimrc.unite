@@ -1,5 +1,5 @@
 nnoremap    [unite]   <Nop>
-nmap    v [unite]
+nmap    ,u [unite]
 
 " Show Unite buffer without screen split 
 nnoremap [unite]u  :<C-u>Unite -no-split<Space>
