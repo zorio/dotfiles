@@ -53,6 +53,7 @@ set softtabstop=2
 set tabstop=2
 set title
 set background=dark
+set list listchars=tab:»·,trail:·
 colorscheme solarized
 "colorscheme molokai
 highlight Cursor ctermfg=White ctermbg=Blue
