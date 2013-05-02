@@ -1,16 +1,16 @@
 " vundle
 set nocompatible
 filetype off
-  
+
 set rtp+=~/.vim/vundle/
 call vundle#rc()
- 
+
 " github/vim-scripts
 Bundle "grep.vim"
 Bundle "The-NERD-tree"
 Bundle "QuickBuf"
 Bundle "taglist.vim"
-Bundle 'unite.vim'
+
 " Completion
 Bundle 'Shougo/neocomplcache'
 Bundle 'matchit.zip'
@@ -20,12 +20,13 @@ Bundle 'zorio/Pydiction'
 Bundle 'JavaScript-syntax'
 Bundle 'zorio/vim-python'
 " Bundle 'scrooloose/syntastic'
+Bundle "terryma/vim-multiple-cursors"
 
 " Color
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 
-source ~/.vimrc.unite
+" source ~/.vimrc.unite
 source ~/.vimrc.neocomplcache
 
 " Improve % matching
