@@ -19,8 +19,7 @@ Bundle 'zorio/Pydiction'
 " Syntax
 Bundle 'JavaScript-syntax'
 Bundle 'zorio/vim-python'
-" Bundle 'scrooloose/syntastic'
-Bundle "terryma/vim-multiple-cursors"
+Bundle 'scrooloose/syntastic'
 
 " Color
 Bundle 'altercation/vim-colors-solarized'
