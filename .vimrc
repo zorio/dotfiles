@@ -19,7 +19,6 @@ Bundle 'zorio/Pydiction'
 " Syntax
 Bundle 'JavaScript-syntax'
 Bundle 'zorio/vim-python'
-Bundle 'scrooloose/syntastic'
 
 " Color
 Bundle 'altercation/vim-colors-solarized'
@@ -29,7 +28,7 @@ Bundle 'tomasr/molokai'
 source ~/.vimrc.neocomplcache
 
 " Improve % matching
-runtime macros/matchit.vim
+"runtime macros/matchit.vim
 filetype plugin indent on
 :au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
@@ -37,7 +36,7 @@ nnoremap <silent> <F6> :NERDTreeToggle<CR>
 nnoremap <silent> gg g<C-]>
 let g:NERDTreeIgnore = ['\~$', '\.pyc$']
 let mapleader = ","
-syntax enable
+syntax on
 set cursorline
 set expandtab
 set foldlevel=1

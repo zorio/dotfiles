@@ -19,7 +19,7 @@ function share_history {
     history -c  # Clear the history list by deleting all the entries
     history -r  # Read the contents of the history file and use them as the current history.
 }
-PROMPT_COMMAND='share_history'  # execute this command each time you enter the command
+PROMPT_COMMAND='history -a'  # execute this command each time you enter the command
 shopt -u histappend   # suppress appending history to HISTFILE
 
 
