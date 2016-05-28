@@ -2,39 +2,16 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/vundle/
-call vundle#rc()
-
-" github/vim-scripts
-Bundle "grep.vim"
-Bundle "The-NERD-tree"
-Bundle "QuickBuf"
-Bundle "taglist.vim"
-
-" Completion
-Bundle 'Shougo/neocomplcache'
-Bundle 'matchit.zip'
-Bundle 'zorio/Pydiction'
-
-" Syntax
-Bundle 'JavaScript-syntax'
-Bundle 'zorio/vim-python'
-
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 " Color
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
-
-" source ~/.vimrc.unite
-source ~/.vimrc.neocomplcache
+Plugin 'tomasr/molokai'
+call vundle#end()
 
 " Improve % matching
-"runtime macros/matchit.vim
 filetype plugin indent on
-:au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
-nnoremap <silent> <F6> :NERDTreeToggle<CR>
-nnoremap <silent> gg g<C-]>
-let g:NERDTreeIgnore = ['\~$', '\.pyc$']
 let mapleader = ","
 syntax on
 set cursorline
@@ -53,8 +30,7 @@ set tabstop=2
 set title
 set background=dark
 set list listchars=tab:»·,trail:·
-colorscheme solarized
-"colorscheme molokai
+colorscheme molokai
 highlight Cursor ctermfg=White ctermbg=Blue
 " buffer switching/management, might as well use those keys for something useful
 map <Right> :bnext<CR>
